@@ -1,8 +1,8 @@
-.wrap #circle .face1 {
+.wrap #circle .face8 {
   display: block;
 }
 
-.wrap #circle .face1 .inner > div {
+.wrap #circle .face8 .inner > div {
   width: 290px;
   height: 194px;
   float: left;
@@ -10,18 +10,18 @@
   text-align: center;
 }
 
-.wrap #circle .face1 .inner > div p i {
+.wrap #circle .face8 .inner > div p i {
   font-size: 80px;
   transition: all 0.5s;
   opacity: 0.7;
 }
 
-.wrap #circle .face1 .inner > div h2 {
+.wrap #circle .face8 .inner > div h2 {
   margin-top: 20px;
   letter-spacing: 2px;
   transition: all 0.5s;
 }
 
-.wrap #circle .face1 .inner > div:nth-of-type(odd) {
+.wrap #circle .face8 .inner > div:nth-of-type(odd) {
   margin-right: 20px;
 }
