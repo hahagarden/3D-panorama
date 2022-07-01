@@ -1,7 +1,8 @@
-/* face1 */
+/*
 .wrap #circle .face1 {
   display: block;
 }
+*/
 
 .wrap #circle .face1 .inner > div {
   width: 290px;
@@ -25,16 +26,4 @@
 
 .wrap #circle .face1 .inner > div:nth-of-type(odd) {
   margin-right: 20px;
-}
-
-.wrap #circle .face1 .inner > div:hover p i {
-  color: lightcyan;
-  text-shadow: 0px 0px 8px aqua;
-  transform: scale(1.2);
-  opacity: 1;
-}
-
-.wrap #circle .face1 .inner > div:hover h2 {
-  color: lightcyan;
-  text-shadow: 0px 0px 8px aqua;
 }
