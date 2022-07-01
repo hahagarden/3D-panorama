@@ -1,0 +1,40 @@
+/* face1 */
+.wrap #circle .face1 {
+  display: block;
+}
+
+.wrap #circle .face1 .inner > div {
+  width: 290px;
+  height: 194px;
+  float: left;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.wrap #circle .face1 .inner > div p i {
+  font-size: 80px;
+  transition: all 0.5s;
+  opacity: 0.7;
+}
+
+.wrap #circle .face1 .inner > div h2 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+
+.wrap #circle .face1 .inner > div:nth-of-type(odd) {
+  margin-right: 20px;
+}
+
+.wrap #circle .face1 .inner > div:hover p i {
+  color: lightcyan;
+  text-shadow: 0px 0px 8px aqua;
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.wrap #circle .face1 .inner > div:hover h2 {
+  color: lightcyan;
+  text-shadow: 0px 0px 8px aqua;
+}
